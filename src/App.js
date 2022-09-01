@@ -1,7 +1,9 @@
+import { Homepage, ProfilePage } from './pages'
+
 function App() {
   return (
-    <div>
-      <h1>React</h1>
+    <div className='container mt-5'>
+      <Homepage />
     </div>
   )
 }
