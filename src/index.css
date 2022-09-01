@@ -14,5 +14,12 @@ code {
 
 .form-control::placeholder {
   color: #fff;
-  box-shadow: none;
+}
+
+.card {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.card:hover {
+  background-color: #ccc;
 }
