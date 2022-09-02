@@ -27,3 +27,14 @@ code {
 .card:hover {
   background-color: #ccc;
 }
+.back {
+  cursor: pointer;
+}
+
+.mb-5 {
+  margin-bottom: 4rem !important;
+}
+
+.bottom p {
+  margin: 0;
+}
