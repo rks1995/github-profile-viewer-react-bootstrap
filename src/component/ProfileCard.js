@@ -8,7 +8,7 @@ const ProfileCard = () => {
           alt=''
           width={60}
         />
-        <div>
+        <div className='profile-card-user'>
           <h4 className='m-0'>username/reponame</h4>
           <p className='fw-semibold text-secondary'>
             Description about Repository

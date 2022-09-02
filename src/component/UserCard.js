@@ -8,8 +8,9 @@ const UserCard = () => {
           <div className='col-md-4'>
             <img
               src='https://cdn-icons-png.flaticon.com/512/3177/3177440.png'
-              className='w-75 pe-0'
+              className='pe-0'
               alt=''
+              width={80}
             />
           </div>
           <div className='col-md-8'>

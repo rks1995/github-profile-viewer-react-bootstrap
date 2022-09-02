@@ -43,3 +43,18 @@ a {
 .bottom p {
   margin: 0;
 }
+
+@media (max-width: 576px) {
+  .container {
+    width: 85% !important;
+  }
+  .input-group {
+    width: 100% !important;
+  }
+  .profile-card-user h4 {
+    font-size: 0.95rem !important;
+  }
+  .profile-card-user p {
+    font-size: 0.95rem !important;
+  }
+}
