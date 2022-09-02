@@ -1,17 +1,18 @@
+import { Link } from 'react-router-dom'
 import ProfileCard from '../component/ProfileCard'
 
 const ProfilePage = () => {
   return (
     <div>
       <div className='top bg-light p-5 pt-3'>
-        <p className='back d-flex align-items-center mb-5'>
+        <Link to={'/'} className='back d-flex align-items-center mb-5'>
           <img
             src='https://cdn-icons-png.flaticon.com/512/2099/2099238.png'
             alt=''
             width={15}
           />
           <span className='ms-2 text-secondary'>Back</span>
-        </p>
+        </Link>
         <div className='d-flex align-items-center'>
           <img
             src='http://www.ateneo.edu/sites/default/files/2021-11/istockphoto-517998264-612x612.jpeg'
