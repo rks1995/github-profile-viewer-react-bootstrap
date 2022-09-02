@@ -12,7 +12,7 @@ const UserCard = () => {
         <div className='col-md-8'>
           <div className='card-body'>
             <h5 className='card-title'>User name</h5>
-            <p className='card-text'>
+            <p className='card-text text-secondary'>
               @handle, work at description bio to be wrapped and not than 3
               lines
             </p>
